@@ -2,8 +2,8 @@ function Ball() {
     this.radius = 25;
     this.x = 100;
     this.y = 100;
-    this.velx = random(1,3)*width/1000;
-    this.vely = random(1,5)*width/1000;
+    this.velx = random(1,3)*width/100;
+    this.vely = random(1,5)*width/100;
     
     this.display = function(){
         if(this.x > width - this.radius || this.x < this.radius){
