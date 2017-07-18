@@ -1,7 +1,7 @@
 var ball;
 
 function setup() {
-    createCanvas(window.innerWidth, window.innerHeight);
+    createCanvas(window.innerWidth-5, window.innerHeight-5);
     ball = new Ball();
 }
 
